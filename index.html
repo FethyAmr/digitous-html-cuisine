@@ -15,37 +15,42 @@
 <body>
 
   <div id="content">
-    <nav class="navbar navbar-expand-lg navbar-transparent">
+     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Cui'zine</a>
-        <span class="navbar-toggler-icon"></span>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="#">Acceuil</a>
-            <a class="nav-item nav-link disabled" href="Equipe" tabindex="-1" aria-disabled="true">Equipe</a>
-            <a class="nav-item nav-link disabled" href="Blog" tabindex="-1" aria-disabled="true">Blog</a>
-            <a class="nav-item nav-link disabled" href="Contact" tabindex="-1" aria-disabled="true">Contact</a>
-          </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-1" href="#">Equipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-1" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-1" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
+
     <header class="container-fluid">
       <div class="row">
-        <div class="col-4 py-4">
-          <div class="block1">
-          </div>
-        </div>
-        <div class="col-4">
+        <div class ="text-center col-8 offset-2 ">
           <div class="block2 mt-5">
-            <img src="./img/logo_square_white.png" class="mx-auto d-block" alt="logo_square_white">
-            <h1 class="col-4 offset-4 pt-4">Cui'Zine</h1>
-            <h2 class="col-9 offset-3">Le mag Cuisine</h2>
+            <img src="./img/logo_square_white.png" class="mb-4" alt="logo_square_white">
+            <h1>Cui'Zine</h1>
+            <h2>Le mag Cuisine</h2>
           </div>
         </div>
-        <div class="col-4 py-4">
-          <div class="block3">
-          </div>
-        </div>
+
       </div>
     </header>
   </div>
@@ -117,9 +122,19 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+    integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+    integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+    crossorigin="anonymous"></script>
+
+
+
+
 </body>
 
 </html>
